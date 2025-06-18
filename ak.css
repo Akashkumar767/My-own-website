@@ -8,10 +8,13 @@ header{
     background-image: url("road.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 #a{
    text-align: center;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   color: burlywood;
 }
 .aa{
     display: flex;
@@ -19,8 +22,10 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
     gap: 15px;
-
-    
+    color: aqua;
+a{
+    color: bisque;
+}
 }
 main{
     padding: 100px;
@@ -29,10 +34,16 @@ main{
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    background-image: url("pic2.jpg");
+    background-image: url("pnkf.jpg");
     background-size: cover;
     background-position: center;
     
+}
+#vid{
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px;
+    object-fit: cover;
 }
 #audi{
     width: 200px;
@@ -41,8 +52,14 @@ main{
     background-color: #f0f0f0;
 }
 #image{
-    position: relative;
-    left: 50px;
+   position: relative;
+   left: 425px;
+   border: 2px solid #000;
+   border-radius: 10px;
+   background-color: #f0f0f0;
+   box-shadow: 0 2px 6px;
+   display:block;
+
 }
 .menu-container{
     position: relative;
