@@ -76,13 +76,23 @@ main{
 }
 .link{
     display: flex;
-    gap: 70px;
+    gap: 10px;
     justify-content:center;
     margin: 20px 0;
+    color: aqua;
 }
 .link a{
     text-decoration: none;
     color: chartreuse;
+}
+figure{
+    text-align:center;
+    margin: 30px;
+}
+figcaption{
+    font: size 14px;
+    color: chartreuse;
+    margin-top: 5px;
 }
 .menu-container{
     position: relative;
