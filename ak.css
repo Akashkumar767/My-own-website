@@ -37,12 +37,13 @@ a{
 main{
     padding:30px 60px;
     margin: 0px;
-    background-color:lightgreen;
+    background-color:rgba(147, 132, 215, 0.356);
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-size: cover;
     background-position: center;
+    background-image: url("pic2.jpg");
     
 }
 #vid{
@@ -63,6 +64,7 @@ main{
     background-color: #f0f0f0;
 }
 #image{
+   width: 55%;
    max-width:100%;
    height: auto;
    margin: 20px 0;
@@ -71,6 +73,16 @@ main{
    background-color: #f0f0f0;
    box-shadow: 0 2px 6px;
 
+}
+.link{
+    display: flex;
+    gap: 70px;
+    justify-content:center;
+    margin: 20px 0;
+}
+.link a{
+    text-decoration: none;
+    color: chartreuse;
 }
 .menu-container{
     position: relative;
