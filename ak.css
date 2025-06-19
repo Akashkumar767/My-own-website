@@ -1,7 +1,7 @@
 
 header{
     background-color: pink;
-    padding: 10px;
+    padding: 20px 40px;
     margin: 0px;
     font-size: larger;
     align-items: center;
@@ -9,8 +9,15 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
 }
+@media (max-width:768px){
+header,main,footer{
+    padding: 10px;
+}
+
+}
+
+
 #a{
    text-align: center;
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,37 +35,41 @@ a{
 }
 }
 main{
-    padding: 100px;
+    padding:30px 60px;
     margin: 0px;
     background-color:lightgreen;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    background-image: url("pnkf.jpg");
     background-size: cover;
     background-position: center;
     
 }
 #vid{
+    width: 100%;
+    max-width:600px;
+    height: auto;
     border: 2px solid #333;
     border-radius: 10px;
     box-shadow: 0 4px 10px;
     object-fit: cover;
 }
 #audi{
-    width: 200px;
+    width:100%;
+    max-width: 600px;
+    margin: 20px auto;
     border: 2px solid #333;
     border-radius: 10px;
     background-color: #f0f0f0;
 }
 #image{
-   position: relative;
-   left: 425px;
+   max-width:100%;
+   height: auto;
+   margin: 20px 0;
    border: 2px solid #000;
    border-radius: 10px;
    background-color: #f0f0f0;
    box-shadow: 0 2px 6px;
-   display:block;
 
 }
 .menu-container{
@@ -91,7 +102,7 @@ main{
     background-color: #f0f0f0;
 }
 footer{
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
     background-color: aquamarine;
     text-align: center;
