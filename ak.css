@@ -75,15 +75,17 @@ main{
 
 }
 .link{
-    display: flex;
-    gap: 10px;
+    display: flexbox;
+    gap: 20px;
     justify-content:center;
     margin: 20px 0;
     color: aqua;
+    
 }
 .link a{
     text-decoration: none;
     color: chartreuse;
+    
 }
 figure{
     text-align:center;
