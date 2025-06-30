@@ -1,7 +1,7 @@
 body{
     border-color: darkblue;
     border-width: 10px;
-    border-style: dashed;
+    border-style: groove;
     border-image: fill;
 }
 header{
