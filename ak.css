@@ -51,7 +51,7 @@ main{
 .vd{
     display: flex;
     justify-content: center;
-    gap: 2vw;
+    gap: 1vw;
     flex-direction: row;
     
 }
